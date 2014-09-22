@@ -30,6 +30,8 @@
 			response.write(i & "<br>")
 		next
 		%>
+		
+		<p><!-- #include virtual="Lab5/visitorCount.asp" --></p>
 		</div>
 	</body>
 </html>

@@ -22,6 +22,8 @@
 			convertedValue = Cstr(pi)
 			response.write("</br>After converting double to String. PI = " & convertedValue & " Typename = " & typename(convertedValue))
 			%>
+			
+			<p><!-- #include virtual="Lab5/visitorCount.asp" --></p>
 		</div>
 	</body>
 </html>

@@ -30,5 +30,7 @@
 			End If
 			
 		%>
+		
+		<p><!-- #include virtual="Lab5/visitorCount.asp" --></p>
 	</body>
 </html>

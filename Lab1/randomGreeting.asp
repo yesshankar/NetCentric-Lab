@@ -32,6 +32,8 @@
 		response.write("</h2>")	
 		
 		%>
+		
+		<p><!-- #include virtual="Lab5/visitorCount.asp" --></p>
 	</div>
 	</body>
 </html>

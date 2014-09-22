@@ -31,6 +31,8 @@
 				response.write("</br>DOB: " & Mid(fullString,semicolonPosition+1))
 				
 			%>
+			
+			<p><!-- #include virtual="Lab5/visitorCount.asp" --></p>
 		</div>
 	
 	</body>

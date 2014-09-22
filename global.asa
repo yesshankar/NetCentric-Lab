@@ -1,0 +1,6 @@
+<script language="vbscript" runat="server">
+	Sub Application_OnStart
+		Application("testValue")="This is test value from Application_OnStrart method in global.asa file"
+		Application("visitor")=0
+	End Sub
+</script>
