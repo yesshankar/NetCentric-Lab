@@ -17,7 +17,7 @@
 		<%
 			number = Request.Form("num")
 			
-			if(number <> null) then
+			if(number <> "") then
 				Response.Write("</br>Square Root of " & number & " is : <b>" & Sqr(number) & "</b>")
 			end if
 		%>
